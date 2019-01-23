@@ -1,9 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:800');
+
 html {
     padding: 0;
     margin: 0;
 }
 
 body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30pt;
+    color: #a7d7c5;
     padding: 0;
     margin: 0;
+    background-color: #3c4f65;
+}
+
+#app {
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    margin-top: 150px;
+    margin-bottom: 10px;
+    font-size: 15pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 30%;
+    outline: none;
 }
