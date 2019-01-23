@@ -1,7 +1,7 @@
 new Vue({
     el: '#app',
     data: {
-        enteredText: 'Text'
+        enteredText: ''
     },
     methods: {
         updateText: function(event) {
